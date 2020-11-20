@@ -352,11 +352,11 @@ $(function () {
 		var regularConstraintsMessages = [
 			{
 				type: regula.Constraint.Required,
-				newMessage: "The text field is required."
+				newMessage: "Das Textfeld ist erforderlich."
 			},
 			{
 				type: regula.Constraint.Email,
-				newMessage: "The email is not a valid email."
+				newMessage: "Die E-Mail ist keine gültige E-Mail."
 			},
 			{
 				type: regula.Constraint.Numeric,
