@@ -4483,6 +4483,7 @@ label {
 	color: #302f2f;
 	border-radius: 15px;
 	border: none;
+	margin-bottom: 10px;
 }
 
 .input-sm, .input-sm:focus,
