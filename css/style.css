@@ -18403,5 +18403,13 @@ td.opened .rdc-table_events {
 .checkbox-inline span + span {
 	margin-left: 5px;
 }
-
+.main-item{
+	background-color: #0084cc;
+	border-radius: 20px;
+	padding: 40px 20px;
+	
+}
+.main-item-text{
+	color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

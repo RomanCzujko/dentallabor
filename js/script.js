@@ -1269,7 +1269,7 @@ $(function () {
 			.addClass("not-animated")
 			.end()
 			.swiper({
-				autoplay: s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 5000,
+				autoplay: s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 0,
 				direction: s.attr('data-direction') ? s.attr('data-direction') : "horizontal",
 				effect: s.attr('data-slide-effect') ? s.attr('data-slide-effect') : "slide",
 				speed: s.attr('data-slide-speed') ? s.attr('data-slide-speed') : 600,
@@ -1463,7 +1463,7 @@ $(function () {
 				focusOnSelect: true,
 				arrows: $slickItem.attr("data-arrows") == "true",
 				swipe: $slickItem.attr("data-swipe") == "true",
-				autoplay: $slickItem.attr("data-autoplay") == "true",
+				autoplay: $slickItem.attr("data-autoplay") == "false",
 				vertical: $slickItem.attr("data-vertical") == "true",
 				centerMode: $slickItem.attr("data-center-mode") == "true",
 				centerPadding: $slickItem.attr("data-center-padding") ? $slickItem.attr("data-center-padding") : '0.50',
@@ -1543,7 +1543,7 @@ $(function () {
 			}
 
 			c.owlCarousel({
-				autoplay: c.attr("data-autoplay") === "true",
+				autoplay: c.attr("data-autoplay") === "false",
 				loop: c.attr("data-loop") !== "false",
 				items: 1,
 				dotsContainer: c.attr("data-pagination-class") || false,
